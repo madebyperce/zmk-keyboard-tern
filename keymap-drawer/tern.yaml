@@ -1,7 +1,6 @@
 layout: {zmk_keyboard: tern}
 layers:
   default:
-  - W
   - C
   - L
   - D
@@ -10,8 +9,7 @@ layers:
   - U
   - O
   - Y
-  - ''''
-  - {t: R, h: Gui}
+  - W
   - {t: S, h: Alt}
   - {t: N, h: Ctrl}
   - {t: T, h: Shift}
@@ -20,19 +18,20 @@ layers:
   - {t: A, h: Shift}
   - {t: E, h: Ctrl}
   - {t: I, h: Alt}
-  - {t: H, h: Gui}
+  - ''''
+  - {t: R, h: Gui}
   - F
   - M
   - G
   - X
   - ','
   - .
+  - {t: H, h: Gui}
   - {t: SYM, h: sticky}
   - ␣
   - ENTER
   - {t: NUM, h: sticky}
   SYM:
-  - <
   - '}'
   - ']'
   - )
@@ -41,8 +40,7 @@ layers:
   - ^
   - ''''
   - '"'
-  - '>'
-  - '#'
+  - <
   - '{'
   - '['
   - (
@@ -51,19 +49,20 @@ layers:
   - '*'
   - '%'
   - ;
-  - '|'
+  - '>'
+  - '#'
   - $
   - '?'
   - '!'
   - '@'
   - '&'
   - ':'
+  - '|'
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
-  - +
   - '7'
   - '8'
   - '9'
@@ -72,8 +71,7 @@ layers:
   - F2
   - F3
   - F4
-  - F5
-  - '0'
+  - +
   - '4'
   - '5'
   - '6'
@@ -82,7 +80,8 @@ layers:
   - F6
   - F7
   - F8
-  - {t: ▽, type: trans}
+  - F5
+  - '0'
   - '1'
   - '2'
   - '3'
@@ -92,9 +91,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   FUNC:
-  - ''
   - Home
   - ↑
   - End
@@ -103,7 +102,6 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR ALL
   - ''
   - ←
   - ↓
@@ -113,13 +111,15 @@ layers:
   - ''
   - ''
   - ''
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Soft Off
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
