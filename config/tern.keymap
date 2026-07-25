@@ -57,19 +57,19 @@
         /* Letters */
 
         v {
-            key-positions = <1 2>;
+            key-positions = <0 1>;
             bindings = <&kp V>;
             layers = <0>;
         };
 
         q {
-            key-positions = <2 3>;
+            key-positions = <1 2>;
             bindings = <&kp Q>;
             layers = <0>;
         };
 
         z {
-            key-positions = <20 21>;
+            key-positions = <19 20>;
             bindings = <&kp Z>;
             layers = <0>;
         };
@@ -77,37 +77,37 @@
         /* Brackets */
 
         lbrc {
-            key-positions = <1 11>;
+            key-positions = <0 9>;
             bindings = <&kp LEFT_BRACE>;
             layers = <0>;
         };
 
         rbrc {
-            key-positions = <8 18>;
+            key-positions = <7 16>;
             bindings = <&kp RIGHT_BRACE>;
             layers = <0>;
         };
 
         lbkt {
-            key-positions = <2 12>;
+            key-positions = <1 10>;
             bindings = <&kp LEFT_BRACKET>;
             layers = <0>;
         };
 
         rbkt {
-            key-positions = <7 17>;
+            key-positions = <6 15>;
             bindings = <&kp RIGHT_BRACKET>;
             layers = <0>;
         };
 
         lpar {
-            key-positions = <3 13>;
+            key-positions = <2 11>;
             bindings = <&kp LEFT_PARENTHESIS>;
             layers = <0>;
         };
 
         rpar {
-            key-positions = <6 16>;
+            key-positions = <5 14>;
             bindings = <&kp RIGHT_PARENTHESIS>;
             layers = <0>;
         };
@@ -115,38 +115,38 @@
         /* Convenience */
 
         del {
-            key-positions = <5 6>;
+            key-positions = <4 5>;
             bindings = <&kp DEL>;
             layers = <0>;
         };
 
         esc {
-            key-positions = <5 15>;
+            key-positions = <4 13>;
             bindings = <&kp ESC>;
             layers = <0>;
         };
 
         ins {
             bindings = <&kp INS>;
-            key-positions = <6 7>;
+            key-positions = <5 6>;
             layers = <0>;
         };
 
         bpsc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
+            key-positions = <6 7>;
             layers = <0>;
         };
 
         pscn {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <19 25>;
+            key-positions = <24 25>;
             layers = <0>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <0 1>;
+            key-positions = <0 8>;
         };
     };
 
